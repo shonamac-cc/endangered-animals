@@ -26,7 +26,7 @@ const handleNewItemFormSubmit = function (event) {
 
     const speciesList = document.querySelector('#species-list');
     speciesList.appendChild(speciesListItem);
-    // event.target.reset();
+    event.target.reset();
 }
 
 const handleDeleteAll = function (event) {
