@@ -1,0 +1,26 @@
+#species-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.species-list-item {
+    padding: 0.5rem 0.8rem;
+    margin: 0.5rem 0.5rem;
+    border: 1px solid black;
+    border-radius: 5%;
+}
+
+#heading {
+    text-align: center;
+}
+
+#new-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.form-item {
+    margin-right: 1.8rem;
+}

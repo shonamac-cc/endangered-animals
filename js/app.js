@@ -10,6 +10,7 @@ const handleNewItemFormSubmit = function (event) {
     event.preventDefault();
     console.log(event);
     const speciesListItem = document.createElement('li');
+    speciesListItem.classList.add('species-list-item')
 
     const name = document.createElement('h2');
     name.textContent = event.target.name.value;
