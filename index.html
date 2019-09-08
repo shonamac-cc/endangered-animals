@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Endangered Species</title>
+    <script src="js/app.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <h1 id="heading">Endangered Species List</h1>
+    <form id="new-form">
+        <div class="form-item">
+            <label for="name">Name</label>
+            <input type="text" id="name" required/>
+        </div>
+
+        <div class="form-item">
+            <label for="species">Species</label>
+            <input type="text" id="species" required/>
+        </div>
+            
+        <div class="form-item">
+            <label for="continent">Continent</label>
+            <select id="continent">
+                <option value="" disabled selected></option>
+                <option value="Asia">Asia</option>
+                <option value="Africa">Africa</option>
+                <option value="Antarctica">Antarctica</option>
+                <option value="Australia">Australia</option>
+                <option value="Europe">Europe</option>
+                <option value="North America">North America</option>
+                <option value="South America">South America</option>
+            </select>
+        </div>
+        <input type="submit" value="Save">
+    </form>
+    <button id="delete-all">Delete All</button>
+
+    <h2>Species List</h2>
+    <ul id="species-list"></ul>
+</body>
+</html>
